@@ -2,4 +2,5 @@
     <string name="app_name">Sensores</string>
     <string name="vibration">Vibração</string>
     <string name="light">Lanterna</string>
+    <string name="classificate_reads">Classificar leituras</string>
 </resources>

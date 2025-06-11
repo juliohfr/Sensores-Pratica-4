@@ -63,7 +63,7 @@
         android:layout_centerHorizontal="true"
         android:layout_centerVertical="true"
         android:onClick="classificateReads"
-        android:text="Classificar leituras"
+        android:text="@string/classificate_reads"
         android:textSize="20dp" />
 
 </RelativeLayout>
