@@ -1,0 +1,8 @@
+~/Android/Sdk/emulator/emulator -avd Medium_Phone \
+-dns-server 8.8.8.8,8.8.4.4 \
+-accel on \
+-gpu host \
+-verbose \
+-no-snapshot \
+-no-boot-anim \
+-qemu -m 4096

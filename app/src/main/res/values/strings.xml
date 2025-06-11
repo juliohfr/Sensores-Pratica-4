@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Sensores</string>
+    <string name="vibration">Vibração</string>
+    <string name="light">Lanterna</string>
+</resources>
