@@ -60,8 +60,8 @@ public class MainActivity extends Activity implements SensorEventListener {
         if(it == null){
             return;
         }else if(requestCode == 10 && resultCode == 1){
-            final String proximityLevel             = it.getStringExtra("proximityValue");
-            final String lightLevel                 = it.getStringExtra("lightValue");
+            final String proximityLevel             = it.getStringExtra("proximityLevel");
+            final String lightLevel                 = it.getStringExtra("lightLevel");
             final SwitchMaterial lanternSwitch      = this.findViewById(R.id.material_switch_vibration);
             final SwitchMaterial vibrationSwitch    = this.findViewById(R.id.material_switch_lantern);
             final LanternaHelper lanternHelper      = new LanternaHelper(this);
